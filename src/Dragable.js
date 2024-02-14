@@ -22,7 +22,7 @@ const Dragable = ({children}) => {
   });
 
   return (
-    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+    <View>
       <Animated.View
         {...panResponder.panHandlers}
         style={{
